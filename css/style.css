@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+    font-family: 'Arimo', sans-serif;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.align_center{
+    align-items: center;
+}
+
+.justify_between{
+    justify-content: space-between;
+}
+
+
+header{
+    background-color: #ee2e24;
+    color: white;    
+    padding: 10px;
+
+}
+
+header .latest{
+    width: 20%;
+}
+
+header .message{
+    width: 80%;
+}
+/* Header Ends */
+
+/* Navbar Starts */
+
+nav .logo{
+    width: 30%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .menu{
+    width: 70%;
+    
+}
+
+nav .menu ul{
+    text-align: right;
+}
+
+nav .menu ul li{
+    display: inline-block;
+    
+}
+
+nav .menu ul li a{
+    font-size: 16px;
+    color: #444;
+    text-transform: capitalize;
+    padding: 25px 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+nav .menu ul li:hover a{
+    color: #ee2e24;
+}
+
+nav .menu ul li:last-child a{
+    background-color: #ee2e24;
+    color: white; 
+}
+/* Navbar Ends */
+
+/* Main Part Start */
+/* banner starts */
+#banner img{
+    width: 100%;
+    display: block;
+}
+/* banner Ends */
+
+/* Start About Us */
+#about{
+    padding: 50px 0;
+}
+
+#about .about_img{
+    width: 40%;
+}
+
+#about .about_Chattogram{
+    width: 60%;
+    padding: 0px 25px;
+}
+
+#about .about_img img{
+    width: 100%;
+    display: block;
+}
+
+.about_Chattogram h2{
+    color: #5b6b80;
+    font-size: 32px;
+    height: 26px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+
+.about_Chattogram p{
+    color: #777;
+    font-size: 16px;    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 24px;
+    
+}
+
+/* Ends About Us */
+
+/* Upcoming Seminar Schedule Starts */
+
+#Seminar{
+    background-color: #f5f5f5;
+    padding: 50px 50px;
+    
+}
+
+
+.text_center{
+    text-align: center;
+}
+
+
+
+#Seminar .Seminar_Schedule h2{
+    color: #444;
+    font-size: 32px;
+    background-color: #dddddda3;    
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+#Seminar .container{
+    background-color: white;
+    padding:  0 0 20px 0;
+}
+
+#Seminar .Seminar_table{    
+    margin: 30px 20px;
+    
+}
+
+
+#Seminar .Seminar_table table{    
+    width: 100%;    
+    border-collapse: collapse;
+    padding: 20px 10px;
+    
+      
+    
+}
+
+#Seminar .Seminar_table th{
+    color: #fff;
+    border: 1px solid #fff;
+    height: 55px;    
+    background: #49596d;    
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+#Seminar .Seminar_table td{        
+    color: #222;    
+    border: 1px solid #caced1;
+    font-size: 18px;
+    
+}
+
+#Seminar .Seminar_table td a{
+    width: 120px;
+    height: 40px;
+    border: none;   
+    margin: 10px auto;    
+    color: #fff;
+    line-height: 40px;
+    background-color: #49596d;
+    display: block;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#Seminar .Seminar_table td:hover a{
+    background-color: rgb(236, 87, 87);
+}
+
+/* Upcoming Seminar Schedule Ends */
+
+
+/* Courses Starts */
+#Courses{
+    padding: 50px 0;
+}
+
+.course_header h2{
+    color: #5b6b80;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.course_header p{
+    color: #777;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.course_item{
+    width: 49%;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.course_item .course_text{
+    
+    width: 60%;
+}
+
+.course_item .course_text h3{
+    color: #5b6b80;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+    padding-left: 15px;
+}
+
+.course_item .course_text p{
+    color: #5b6b80;
+    font-size: 16px;    
+    padding: 0 20px 20px 15px;
+    line-height: 24px;
+}
+
+.course_item .course_text a{
+    width: 150px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    background-color: #49596d;
+    display: block;
+    border-radius: 0 25px 25px 0;
+    transition: 0.3s;
+}
+
+.course_item .course_text a:hover{
+    background-color: #ee3026;
+}
+
+.course_item .course_img{
+    
+    width: 40%;
+    display: block;
+}
+
+
+
+.course_item .course_img img{
+    width: 100%;
+    display: block;
+}
+
+/* Courses Ends */
+
+/* Gallery Starts */
+#Gallery{
+    padding-bottom: 30px;
+}
+
+.gallery_text h2{
+    color: #5b6b80;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.gallery_text p{
+    color: #777;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+#Gallery .gallery_img{
+    width: 32%;
+    margin-bottom: 20px;
+}
+
+#Gallery .gallery_img img{
+    width: 100%;
+    display: block;
+}
+
+/* Gallery Ends */
+
+/* Contact Starts */
+#Contact{
+    padding-top: 20px;
+}
+
+.contact_text h2{
+    color: #5b6b80;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.contact_text p{
+    color: #777;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.form_input{
+    width: 49%;
+    margin-bottom: 20px;
+}
+
+.form_textarea textarea,
+.form_input input{
+    width: 100%;
+    height: 40px;
+    text-indent: 15px;
+    border-radius: 5px;
+    border: 0;
+    border: 1px solid #ced4da;   
+    
+}
+
+.form_input input:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgba(128, 189, 255, 1)
+    
+}
+
+.form_textarea{
+    width: 100%;
+    
+}
+
+.form_textarea textarea:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgba(128, 189, 255, 1)
+    
+}
+
+.form_textarea textarea{
+    height: 120px;
+}
+
+#Contact form button{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    background-color: #49596d;
+    border: 0;
+    outline: 0;
+    border-radius: 25px;
+    margin: 20px auto;
+    display: block;
+    transition: 0.3s;
+    
+}
+
+
+#Contact form button:hover{
+    background-color: #ee3026;
+}
+/* Contact Ends */
+
+/* Footer Starts */
+
+/* Footer Ends */
+
+
+
+
